@@ -11,6 +11,8 @@
 #include <MateLib/Memory.hpp>
 #include <MateLib/Mutex.hpp>
 #include <MateLib/RawFile.hpp>
+#include <MateLib/TCPSocket.hpp>
 #include <MateLib/Thread.hpp>
+#include <MateLib/UDPSocket.hpp>
 
 #endif

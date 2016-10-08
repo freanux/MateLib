@@ -15,6 +15,8 @@
     <File Name="../../src/RawFile.cpp"/>
     <File Name="../../src/FileWriter.cpp"/>
     <File Name="../../src/Thread.cpp"/>
+    <File Name="../../src/UDPSocket.cpp"/>
+    <File Name="../../src/TCPSocket.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="include">
     <VirtualDirectory Name="MateLib">
@@ -30,6 +32,8 @@
       <File Name="../../include/MateLib/RawFile.hpp"/>
       <File Name="../../include/MateLib/Scope.hpp"/>
       <File Name="../../include/MateLib/Thread.hpp"/>
+      <File Name="../../include/MateLib/UDPSocket.hpp"/>
+      <File Name="../../include/MateLib/TCPSocket.hpp"/>
     </VirtualDirectory>
     <File Name="../../include/MateLib.hpp"/>
   </VirtualDirectory>
