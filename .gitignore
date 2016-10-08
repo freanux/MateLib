@@ -1,5 +1,7 @@
 .build-debug
+.build-release
 .codelite
+.clang
 Debug
 Release
 MateLib.mk
