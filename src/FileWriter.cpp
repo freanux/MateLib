@@ -1,5 +1,7 @@
 #include "MateLib/FileWriter.hpp"
 
+#include <cstring>
+
 namespace Mate {
 
     FileWriter::FileWriter(const char *filename) throw (RawFileException)
@@ -19,6 +21,10 @@ namespace Mate {
 
     void FileWriter::destroy(FileWriter *fw) {
         delete fw;
+    }
+
+    size_t FileWriter::write(const char *s) {
+        return write(s, std::strlen(s));
     }
 
     size_t FileWriter::write(const void *from, size_t sz) {

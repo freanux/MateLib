@@ -4,5 +4,6 @@ Debug
 Release
 MateLib.mk
 MateLib.txt
-LibText.mk
-LibText*.txt
+LibTest.mk
+LibTest*.txt
+Makefile

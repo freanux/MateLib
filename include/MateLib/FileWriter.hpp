@@ -19,6 +19,8 @@ namespace Mate {
         static FileWriter *create(const char *filename) throw (MemoryException, RawFileException);
         static void destroy(FileWriter *fw);
 
+        size_t write(const char *s);
+
         // DataWriter
         virtual size_t write(const void *from, size_t sz);
 

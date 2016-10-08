@@ -4,8 +4,8 @@
 
 int main(int argc, char *argv[]) {
     try {
-        Mate::FileReader fr("/tmp/pw2");
-        std::cout << "filesize: " << fr.get_size() << std::endl;
+        Mate::FileWriter fw("/tmp/test");
+        fw.write("test data");
 
         return 0;
     } catch (const Mate::Exception& e) {
