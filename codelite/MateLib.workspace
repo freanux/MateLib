@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="MateLib" Database="">
+  <Project Name="MateLib" Path="MateLib/MateLib.project" Active="No"/>
+  <Project Name="LibTest" Path="LibTest/LibTest.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="MateLib" ConfigName="Debug"/>
+      <Project Name="LibTest" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="MateLib" ConfigName="Release"/>
+      <Project Name="LibTest" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
