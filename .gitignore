@@ -1,0 +1,8 @@
+.build-debug
+.codelite
+Debug
+Release
+MateLib.mk
+MateLib.txt
+LibText.mk
+LibText*.txt

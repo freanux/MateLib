@@ -25,7 +25,7 @@ namespace Mate {
 
     template<typename T> class ScopeAllocator : public AutoPtr<T[]> {
     public:
-        ScopeAllocator(size_t sz) : AutoPtr<T[]>(allocate<T>(sz)) { }
+        ScopeAllocator(size_t sz) : AutoPtr<T[]>(alloc<T>(sz)) { }
     };
 
 }
