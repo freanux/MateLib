@@ -1,5 +1,5 @@
-#ifndef _UTF8_HPP_
-#define _UTF8_HPP_
+#ifndef _MATELIB_UTF8_HPP_
+#define _MATELIB_UTF8_HPP_
 
 #include <stdint.h>
 #include <cstdlib>
