@@ -1,14 +1,18 @@
 #include <MateLib.hpp>
 
 #include <iostream>
+#include <clocale>
 
 int main(int argc, char *argv[]) {
-    try {
-        Mate::FileWriter fw("/tmp/test");
-        fw.write("test data");
+    static const int BufLength = 256;
 
-        return 0;
-    } catch (const Mate::Exception& e) {
-        std::cout << "ERROR: " << e.what() << std::endl;
-    }
+    setlocale(LC_ALL, "");
+
+    const char *src = "my äöü text";
+    wchar_t dst[BufLength];
+
+    Mate::fast_mbstowcs(dst, src, BufLength);
+    std::wcout << dst << std::endl;
+
+    return 0;
 }

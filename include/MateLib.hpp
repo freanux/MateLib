@@ -14,5 +14,6 @@
 #include <MateLib/TCPSocket.hpp>
 #include <MateLib/Thread.hpp>
 #include <MateLib/UDPSocket.hpp>
+#include <MateLib/UTF8.hpp>
 
 #endif

@@ -34,6 +34,7 @@
       <File Name="../../include/MateLib/Thread.hpp"/>
       <File Name="../../include/MateLib/UDPSocket.hpp"/>
       <File Name="../../include/MateLib/TCPSocket.hpp"/>
+      <File Name="../../include/MateLib/UTF8.hpp"/>
     </VirtualDirectory>
     <File Name="../../include/MateLib.hpp"/>
   </VirtualDirectory>
