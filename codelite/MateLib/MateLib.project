@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="MateLib" InternalType="Library">
+<CodeLite_Project Name="MateLib" InternalType="Library" Version="10.0.0">
   <Plugins>
     <Plugin Name="qmake">
       <![CDATA[00010001N0005Debug000000000000]]>
@@ -17,6 +17,8 @@
     <File Name="../../src/Thread.cpp"/>
     <File Name="../../src/UDPSocket.cpp"/>
     <File Name="../../src/TCPSocket.cpp"/>
+    <File Name="../../src/RefCount.cpp"/>
+    <File Name="../../src/Process.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="include">
     <VirtualDirectory Name="MateLib">
@@ -35,6 +37,8 @@
       <File Name="../../include/MateLib/UDPSocket.hpp"/>
       <File Name="../../include/MateLib/TCPSocket.hpp"/>
       <File Name="../../include/MateLib/UTF8.hpp"/>
+      <File Name="../../include/MateLib/RefCount.hpp"/>
+      <File Name="../../include/MateLib/Process.hpp"/>
     </VirtualDirectory>
     <File Name="../../include/MateLib.hpp"/>
   </VirtualDirectory>

@@ -6,11 +6,11 @@ namespace Mate {
     template<class T> class Scope {
     public:
         Scope(T& obj) : obj(obj) {
-            obj.enter_scope();
+            obj.scope_enter();
         }
 
         ~Scope() {
-            obj.leave_scope();
+            obj.scope_leave();
         }
 
     private:

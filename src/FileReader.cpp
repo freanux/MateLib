@@ -3,7 +3,7 @@
 namespace Mate {
 
     FileReader::FileReader(const char *filename) throw (RawFileException)
-        : DataReader(filename), file(filename, RawFile::ModeReadByte), size(0)
+        : DataReader(filename), file(filename, RawFile::ModeReadBinary), size(0)
     {
         // get filelen
         file.seek(0, RawFile::SeekEnd);

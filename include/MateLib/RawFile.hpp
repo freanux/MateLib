@@ -23,10 +23,10 @@ namespace Mate {
         enum Mode {
             ModeRead = 0,
             ModeWrite,
-            ModeReadByte,
-            ModeWriteByte,
+            ModeReadBinary,
+            ModeWriteBinary,
             ModeAppend,
-            ModeAppendByte
+            ModeAppendBinary
         };
 
         enum Seek {

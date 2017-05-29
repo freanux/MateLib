@@ -61,16 +61,16 @@ namespace Mate {
             case ModeWrite:
                 return "w";
 
-            case ModeReadByte:
+            case ModeReadBinary:
                 return "rb";
 
-            case ModeWriteByte:
+            case ModeWriteBinary:
                 return "wb";
 
             case ModeAppend:
                 return "a";
 
-            case ModeAppendByte:
+            case ModeAppendBinary:
                 return "ab";
         }
 

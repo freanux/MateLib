@@ -5,7 +5,7 @@
 namespace Mate {
 
     FileWriter::FileWriter(const char *filename) throw (RawFileException)
-        : DataWriter(filename), file(filename, RawFile::ModeWriteByte) { }
+        : DataWriter(filename), file(filename, RawFile::ModeWriteBinary) { }
 
     FileWriter::~FileWriter() { }
 
